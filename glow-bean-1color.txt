@@ -1,0 +1,19 @@
+/*
+This sketch blinks the Bean's d2 pin on and off.
+
+This example code is in the public domain.
+*/
+
+static int d2 = 2;
+  
+void setup() {
+    pinMode(d2, OUTPUT);
+}
+
+
+void loop() {
+    digitalWrite(d2, HIGH);
+    Bean.sleep(250);
+    digitalWrite(d2, LOW);
+    Bean.sleep(1000);
+}

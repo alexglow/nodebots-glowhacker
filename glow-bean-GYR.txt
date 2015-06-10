@@ -1,0 +1,29 @@
+/*
+Assuming you have green on pin 2, and red on pin 3,
+this sketch blinks your 5050 LED strip green, then
+yellow, then red.
+
+This example code is in the public domain.
+*/
+
+static int d2 = 2;
+static int d3 = 3;
+  
+void setup() {
+// Optional: Use Bean.setAccelerationRange() to set the sensitivity
+// to something other than the default of ±2g.
+    pinMode(d2, OUTPUT);
+    pinMode(d3, OUTPUT);
+}
+
+
+void loop() {
+    digitalWrite(d2, HIGH);
+    Bean.sleep(250);
+    digitalWrite(d3, HIGH);
+    Bean.sleep(250);
+    digitalWrite(d2, LOW);
+    Bean.sleep(250);
+    digitalWrite(d3, LOW);
+    Bean.sleep(1000);
+}
