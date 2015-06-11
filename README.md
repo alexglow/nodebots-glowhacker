@@ -1,6 +1,6 @@
 # nodebots-glowhacker
 
-From NodeBots SF workshop, "glowhacker" LED bike lights! See tutorial at http://hackster.io/glowascii/nodebots-glowhacker
+From NodeBots SF workshop, "glowhacker" LED bike lights! See tutorial at http://hackster.io/glowascii/nodebots-glowhacker (coming soon...)
 
 Here are a couple of example sketches and circuit diagrams!
 
