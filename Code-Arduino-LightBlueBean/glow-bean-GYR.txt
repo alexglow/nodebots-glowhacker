@@ -1,22 +1,22 @@
 /*
 Assuming you have green on pin 2, and red on pin 3,
-this sketch blinks your 5050 LED strip green, then
-yellow, then red.
+this sketch blinks your 5050 LED strip green (pin d2),
+then yellow (both colors), then red (pin d3).
 
 This example code is in the public domain.
 */
 
+// Declare your digital pins
 static int d2 = 2;
 static int d3 = 3;
-  
+
+// Set them as output pins
 void setup() {
-// Optional: Use Bean.setAccelerationRange() to set the sensitivity
-// to something other than the default of ±2g.
     pinMode(d2, OUTPUT);
     pinMode(d3, OUTPUT);
 }
 
-
+// ENGAGE!
 void loop() {
     digitalWrite(d2, HIGH);
     Bean.sleep(250);

@@ -4,13 +4,15 @@ This sketch blinks the Bean's d2 pin on and off.
 This example code is in the public domain.
 */
 
+// Declare digital pin 2
 static int d2 = 2;
-  
+
+// Set it to "output" mode
 void setup() {
     pinMode(d2, OUTPUT);
 }
 
-
+// Blink on & off!! Modify for different patterns.
 void loop() {
     digitalWrite(d2, HIGH);
     Bean.sleep(250);
