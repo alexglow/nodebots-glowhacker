@@ -11,5 +11,5 @@ _SKETCHES FOR LIGHTBLUE BEAN_
 _DIAGRAMS_  
 **June-Workshop-Diagram.jpg** • The original diagram! Sketched with my finger on an iPad... be gentle  
 **1-simple-smart-lights.jpg** • Pretty much the same circuit, taken down to its simplest form.  
-**2-direct-vs-smart-power.jpg** • The same thing, with a switch to power the lights directly, in case the microcontroller is removed or out of power.
+**2-direct-vs-smart-power.jpg** • The same thing, with a switch to power the lights directly, in case the microcontroller is removed or out of power.  
 **3-color-switching-and-multi-strips.jpg** • Want to switch between two different colors? Use two transistors, one for each. You can also connect two color rails together to get a combination color (purple, yellow, teal). This diagram also shows how to hook up two LED strips.  
